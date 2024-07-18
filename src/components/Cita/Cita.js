@@ -13,7 +13,7 @@ const Cita = () => {
             ni orgulloso. No se comporta con rudeza, 
             no es egoísta, no se enoja fácilmente, no guarda rencor”.
         1 Corintios 13:4-5</p>
-        <img className='anillos' src={anillosBoda} />
+        <img className='anillos' alt='anillos' src={anillosBoda} />
       </div>
     );
   };

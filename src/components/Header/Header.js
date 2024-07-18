@@ -7,7 +7,7 @@ const Header = () => {
   
     return (
       <div className='header' style={{ backgroundImage: `url(${fotoNovios})` }}>
-        <img className='headerLogo' src={nombre}></img>
+        <img alt='logo' className='headerLogo' src={nombre}></img>
       </div>
     );
   };

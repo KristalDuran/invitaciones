@@ -1,6 +1,5 @@
 
-import React, { useState } from 'react';
-import { nombre } from '../../img';
+import React from 'react';
 import Form from '../Form/Form';
 import "./style.css";
 

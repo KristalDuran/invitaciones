@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { calendar, nombre } from '../../img';
+import { calendar } from '../../img';
 import "./style.css";
 
 const Fecha = () => {
@@ -24,24 +24,13 @@ const Fecha = () => {
         targetDate.setFullYear(targetDate.getFullYear() + 1);
     }
 
-    // Fecha objetivo para mañana a las 2 PM
-    let tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 14, 0, 0);
-
     const diffToOctober = targetDate - now;
-    const diffToTomorrow = tomorrow - now;
 
     // Cálculo de tiempo restante hasta el 12 de octubre a las 2 PM
     setDays(Math.floor(diffToOctober / (1000 * 60 * 60 * 24)));
     setHours(Math.floor((diffToOctober % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
     setMinuts(Math.floor((diffToOctober % (1000 * 60 * 60)) / (1000 * 60)));
     setSeg(Math.floor((diffToOctober % (1000 * 60)) / 1000));
-
-    // Cálculo de tiempo restante hasta mañana a las 2 PM
-    const hoursLeftTomorrow = Math.floor(diffToTomorrow / (1000 * 60 * 60));
-    const minutesLeftNextHour = 60 - now.getMinutes() - 1;
-    const secondsLeftNextMinute = 60 - now.getSeconds();
-
-
   }
 
   const onClickCalendar = () => {
@@ -74,7 +63,7 @@ const Fecha = () => {
       </div>
       <div className='calendario'>
           <p className='mes'>Octubre</p>
-          <img src={calendar} />
+          <img alt='calendar' src={calendar} />
       </div>
       <p className='fechaexacta'>12.10.24</p>
       <button className='boton' onClick={onClickCalendar}>Agregar a calendario</button>

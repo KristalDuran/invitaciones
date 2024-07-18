@@ -8,9 +8,11 @@ export const calendar = calendarDate;
 export const fotoNovios = foto;
 export const anillosBoda = anillos;
 
-export default {
+const defaultExport = {
     nombre,
     calendar,
     fotoNovios,
-    anillosBoda,
+    anillosBoda
 };
+
+export default defaultExport;

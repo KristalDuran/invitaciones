@@ -1,30 +1,29 @@
 // src/components/Form.js
 import React, { useState } from 'react';
-import { db } from '../../utils/firebase';
-import { collection, addDoc } from 'firebase/firestore';
-import { FormControl, FormLabel , Input} from '@chakra-ui/react';
+// import { db } from '../../utils/firebase';
+// import { collection, addDoc } from 'firebase/firestore';
 import Switch from "react-switch";
 import './style.css'
 
 const Form = () => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
+    // const [name, setName] = useState('');
+    // const [email, setEmail] = useState('');
     const [asistencia, setAsistencia] = useState(true);
 
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-      try {
-        const docRef = await addDoc(collection(db, 'users'), {
-          name,
-          email
-        });
-        alert('Datos guardados correctamente con ID: ' + docRef.id);
-        setName('');
-        setEmail('');
-      } catch (error) {
-        console.error('Error guardando los datos: ', error);
-      }
-    };
+    // const handleSubmit = async (e) => {
+    //   e.preventDefault();
+    //   try {
+    //     const docRef = await addDoc(collection(db, 'users'), {
+    //       name,
+    //       email
+    //     });
+    //     alert('Datos guardados correctamente con ID: ' + docRef.id);
+    //     setName('');
+    //     setEmail('');
+    //   } catch (error) {
+    //     console.error('Error guardando los datos: ', error);
+    //   }
+    // };
   
     return (
       <div className='form'>

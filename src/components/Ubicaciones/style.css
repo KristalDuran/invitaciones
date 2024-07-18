@@ -1,0 +1,57 @@
+
+.ubicacion {
+    height: 75vh;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.subtitle {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.mensaje {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.informacion {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hora {
+    border-radius: 8px;
+    border: 1px #3E503D solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px 15px 10px 15px;
+    font-size: 18px;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px 15px 10px 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #FAFFFA;
+    border: none;
+    background-color: #3E503D;
+    font-family: 'Aref Ruqaa Ink', serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+.button:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}

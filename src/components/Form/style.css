@@ -1,0 +1,48 @@
+.form {
+    margin: 10px;
+}
+
+.formRow {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.formDetalle {
+    margin: 5px 0px;
+    font-size: 30px;
+    margin-right: auto;
+}
+
+.formInput {
+    height: 25px;
+    padding: 5px;
+    border-radius: 8px;
+    border-color: #D9D9D9;
+    font-size: 15px;
+}
+
+.formInput:focus {
+    outline: none; /* Asegura que no haya borde al enfocar */
+    box-shadow: none; /* Elimina el efecto de sombra */
+    border-color: #D9D9D9;
+}
+
+.formAsistencia {
+    margin: 5px 0px;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.formSwitch {
+    margin-top: 12px;
+    margin-right: 20px;
+}

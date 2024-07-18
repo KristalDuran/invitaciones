@@ -1,0 +1,84 @@
+
+.fecha {
+    height: 100vh;
+    background-color: #7F9B7D;
+    color: #E2F2E1;
+    padding-top: 40px;
+}
+
+.faltan {
+
+}
+
+.titleFecha {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+    background-color: #7F9B7D;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tiempo {
+    display: flex;
+    flex-direction: row;
+}
+
+.detalle{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dias {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.letra {
+    font-style: 20px;
+    font-weight: bold;
+}
+
+.calendario {
+
+}
+
+.mes {
+    font-size: 70px;
+
+}
+
+.fechaexacta {
+    font-size: 70px;
+    margin: 10px 5px;
+}
+
+.cuadro {
+    position: absolute;
+    margin: 40px 20px;
+    border: 2px solid #3E503D;
+    height: 16%;
+    width: 90%;
+}
+
+.boton {
+    padding: 6px 15px 10px 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #FAFFFA;
+    border: none;
+    background-color: #3E503D;
+    font-family: 'Aref Ruqaa Ink', serif;
+    margin-top: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+.boton:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}

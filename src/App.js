@@ -1,12 +1,19 @@
 import './App.css';
 import React from 'react';
-import Form from './components/Form';
+import Header from './components/Header/Header';
+import Cita from './components/Cita/Cita';
+import Ubicaciones from './components/Ubicaciones/Ubicaciones';
+import Fecha from './components/Fecha/Fecha';
+import Asistencia from './components/Asistencia/Asistencia';
 
 function App() {
   return (
     <div className="App">
-      <h1>Boda E&K </h1>
-      <Form />
+      <Header />
+      <Cita />
+      <Ubicaciones />
+      <Fecha />
+      <Asistencia />
     </div>
   );
 }

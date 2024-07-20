@@ -1,9 +1,9 @@
 
 .fecha {
-    height: 100vh;
     background-color: #7F9B7D;
     color: #E2F2E1;
-    padding-top: 40px;
+    padding: 40px 0;
+    margin-top: 30px;
 }
 
 .titleFecha {

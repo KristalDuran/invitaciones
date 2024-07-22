@@ -1,0 +1,61 @@
+.audio {
+    background: none !important;
+}
+.cancion {
+    width: 100%;
+    height: 157px;
+    border: none;
+    padding-top: 15px;
+    /* background-color: #7F9B7D; */
+}
+
+.rhap_container {
+    box-shadow: none !important;
+}
+
+.cancionBorder {
+    border: solid 1px #7F9B7D;
+    border-radius: 20px;
+    padding: 15px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fafffa84;
+}
+
+.cancionTexto {
+    margin: 0;
+    font-size: 15px;
+}
+
+.rhap_container svg {
+    color: #3E503D;
+}
+
+.rhap_volume-controls .rhap_volume-bar {
+    background: #7F9B7D;
+}
+
+.rhap_volume-controls .rhap_volume-indicator {
+    background: #3E503D;
+}
+
+.rhap_progress-section .rhap_progress-bar {
+    background-color: #7F9B7D;
+}
+
+.rhap_progress-section .rhap_progress-indicator {
+    background: #3E503D;
+}
+
+.rhap_progress-section .rhap_progress-filled{
+    background-color: #3E503D;
+}
+
+.rhap_progress-section .rhap_current-time {
+    color: #3E503D;
+}
+
+.rhap_progress-section .rhap_time {
+    color: #3E503D;
+}

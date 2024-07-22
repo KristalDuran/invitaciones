@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "./style.css";
-import { anillosBoda } from '../../img';
+import { anillosBoda } from '../../assets';
 
 const Cita = () => {
   

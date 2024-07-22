@@ -89,3 +89,44 @@
     background-color: #D9D9D9;
     color: #5D795B;
 }
+
+.formAcompanante {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #3E503D;
+    border-radius: 20px;
+    width: 225px;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.formAcompananteNombre {
+    width: 180px;
+    margin: 0;
+}
+
+.Dropdown-control {
+    border-radius: 20px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #7F9B7D;
+    color: #FAFFFA;
+    border: #FAFFFA solid 1px;
+}
+
+.Dropdown-arrow {
+    border-color: #FAFFFA transparent transparent;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.Dropdown-menu {
+    border-radius: 10px;
+    margin-top: 5px;
+}

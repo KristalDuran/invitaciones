@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { calendar } from '../../img';
+import { calendar } from '../../assets';
 import "./style.css";
 
 const Fecha = () => {
@@ -63,7 +63,8 @@ const Fecha = () => {
       </div>
       <div className='calendario'>
           <p className='mes'>Octubre</p>
-          <img alt='calendar' src={calendar} />
+          <div className='line'/>
+          <img alt='calendar' className='calendar' src={calendar} />
       </div>
       <p className='fechaexacta'>12.10.24</p>
       <button className='boton' onClick={onClickCalendar}>Agregar a calendario</button>

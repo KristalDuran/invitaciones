@@ -43,9 +43,16 @@
 
 .mes {
     font-size: 70px;
-
+    margin-bottom: 10px;
 }
 
+.line {
+    width: 90%;
+    margin-left: auto;
+    border: solid 1px #3E503D;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
 .fechaexacta {
     font-size: 70px;
     margin: 10px 5px;
@@ -74,4 +81,8 @@
 
 .boton:hover {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.calendar {
+    width: 100%;
 }

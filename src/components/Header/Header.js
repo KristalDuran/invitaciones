@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { fotoNovios, nombre } from '../../img';
+import { fotoNovios, nombre } from '../../assets';
 import "./style.css";
 // import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';

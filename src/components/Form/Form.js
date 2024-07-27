@@ -107,7 +107,7 @@ const Form = () => {
           <div className='center'>
             <div className="overlay2"></div>
             <div className="confirmation-message">
-                <IoClose onClick={()=>{setFinal(false); setCompania([]); setName('')}}/>
+                <IoClose className='close' onClick={()=>{setFinal(false); setCompania([]); setName('')}}/>
                 <p>{asistencia ? `Gracias por confirmar tu asistencia para ${compania.length+1} ${compania.length > 0 ? 'personas' : 'persona'}. ¡Nos vemos el 12 de Octubre!`: 'Lamentamos que no nos puedas acompañar, si cambias de opinión no dudes en hacernoslo saber.'}</p>
             </div>
           </div>

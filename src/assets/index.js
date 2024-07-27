@@ -2,7 +2,7 @@ import nombres from "./Logo.svg";
 import calendarDate from "./Calendar.svg";
 import foto from "./FotoNovios.JPG";
 import anillos from "./anillos.avif";
-import audio from "./AUDIO.mp3"
+import audio from "./cancion.m4a"
 import lista from "./invitados.json";
 
 export const nombre = nombres;

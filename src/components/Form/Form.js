@@ -100,7 +100,7 @@ const Form = () => {
           <p className='formAsistencia'>Asistiras:</p>
           <Switch className='formSwitch' onChange={() => setAsistencia(!asistencia)} checked={asistencia} uncheckedIcon checkedIcon offColor='#A3A3A3' onColor='#5D795B'/>
         </div>
-        <button className='button' onClick={()=>{setConfirmar(!confirmar);}}>Confirmar</button>
+        {name !== '' && <button className='button' onClick={()=>{setConfirmar(!confirmar);}}>Confirmar</button>}
         {
           confirmar &&
           <div className='center'>

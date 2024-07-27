@@ -31,8 +31,17 @@ const Form = () => {
         querySnapshot.forEach((doc) => {
           usersData.push({ id: doc.id, ...doc.data() });
         });
-        setInvitados(usersData);
-        const lista = usersData?.filter((e) => e.confirmado === false);
+        const listaInvitados = usersData.sort((a, b) => {
+          if (a.nombre < b.nombre) {
+              return -1;
+          }
+          if (a.nombre > b.nombre) {
+              return 1;
+          }
+          return 0;
+      });
+        setInvitados(listaInvitados);
+        const lista = listaInvitados?.filter((e) => e.confirmado === false);
         setOptions(lista?.map((e) => e.nombre))
       } catch (error) {
         console.error("Error obteniendo documentos: ", error);

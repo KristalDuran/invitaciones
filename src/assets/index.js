@@ -1,6 +1,6 @@
 import nombres from "./Logo.svg";
 import calendarDate from "./Calendar.svg";
-import foto from "./FotoNovios.JPG";
+import foto from "./FotoNovios.png";
 import anillos from "./anillos.avif";
 import audio from "./cancion.m4a"
 import lista from "./invitados.json";

@@ -34,7 +34,7 @@ const Fecha = () => {
   }
 
   const onClickCalendar = () => {
-    window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda%20Edwin%20Y%20Kristal&dates=20241012T140000Z/20241012T150000Z&details=No%20olvides%20tu%20mejor%20sonrisa.&location=Zarcero,%20Alajuela&ctz=America/Costa_Rica", '_blank');
+    window.open("https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda%20Edwin%20Y%20Kristal&dates=20241012T200000Z/20241013T040000Z&details=No%20olvides%20tu%20mejor%20sonrisa.&location=Zarcero,%20Alajuela&ctz=America/Costa_Rica", '_blank');
   }
 
   return (
